@@ -1,0 +1,278 @@
+@font-face 
+{
+    font-family: 'source_sans_proregular';
+    src: url('sourcesanspro-regular-webfont.eot');
+    src: url('sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcesanspro-regular-webfont.woff') format('woff'),
+         url('sourcesanspro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#bloc_page
+{
+	display: flex;
+	border: 1px solid black;
+	width: 725px;
+	font-family: 'source_sans_proregular';
+	height: 1065px;
+
+}
+
+nav
+{
+	
+	position: relative;
+	flex:1;
+	background-color: #FFB600;
+}
+
+.nav_titre
+{
+	text-align: center;
+	background-color: black;
+	color: #FFB600;
+	text-transform: uppercase;
+	height: 35px;
+}
+
+nav h2
+{
+	padding: 5px;
+	font-size: 1.2em;
+	
+}
+
+#photo
+{
+	
+	text-align: center;
+	padding: 20px;
+
+}
+
+.adresse
+{
+	
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px
+	padding-bottom: 20px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+
+#à_propos_de_moi
+{
+	height: 510px;
+	
+}
+
+#à_propos_de_moi p
+{
+	text-align: center;
+	padding: 25px;
+	font-size: 0.8em;
+}
+
+#loisirs
+{
+	text-align: center;
+}
+
+#loisirs i
+{
+	padding: 10px;
+}
+
+#loisirs p
+{
+	font-size: 2.2em;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#core
+{
+	
+	flex:2;
+}
+
+header 
+{
+	padding-left: 25px;
+	padding-bottom: 45px;
+	padding-top: 35px;
+	height: 125px;
+}
+
+header h1
+{
+	text-transform: uppercase;
+	margin-bottom: 0px;
+
+}
+
+.florian
+{
+	color: #FFB600
+}
+
+header h2
+{
+	font-size: 1.2em;
+	margin-top: 0px;
+}
+
+.develo
+{
+	border-bottom: 1px solid #FFB600;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+
+section
+{
+	
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 55px;
+}
+
+section h2
+{
+	font-size: 1.2em;
+	border-bottom: 1px solid #FFB600;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+#formation
+{
+	
+	display: flex;
+	width: 105%;
+}
+
+.graduation
+{
+	margin-right: 15px;
+	color: #FFB600;
+}
+
+article
+{
+		
+	width: 45%;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.article_top
+{
+	
+	padding-bottom: 15px;
+}
+
+.aside_top
+{
+	
+	padding-top: 5px;
+	
+}
+
+aside
+{
+	
+	width: 65%;
+	position: relative;
+	padding-top: 10px;
+}
+
+aside p
+{
+	font-size: 0.8em;
+}
+
+#experience_professionnelle
+{
+	
+	display: flex;
+	width: 105%;
+}
+
+.briefcase
+{
+	margin-right: 15px;
+	color: #FFB600;
+}
+
+.article_mid
+{
+	
+	padding-bottom: 65px;
+}
+
+.aside_mid
+{
+	
+}
+
+#recommandations
+{
+	display: flex;
+	
+	width: 105%;
+}
+
+.stylo
+{
+	margin-right: 15px;
+	color: #FFB600;
+}
+
+.element
+{
+	
+	width: 100%;
+}
+
+.element p
+{
+	font-size: 0.8em;
+}
+
+.maj
+{
+	text-transform: uppercase;
+}
+
+.point_cercle
+{
+	margin-right: 5px;
+	color: #FFB600;
+}
+
+.point
+{
+	margin-right: 5px;
+	color: #FFB600;
+	font-size: 0.4em;
+}
+
+@media all and (max-width: 1280px)
+{
+	#bloc_page
+	{
+		width:auto;
+		height:auto;
+
+	}
+}
